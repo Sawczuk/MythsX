@@ -1,0 +1,315 @@
+
+html, body { padding: 0; margin: 0; }
+
+body {
+ font-family: Trebuchet MS;
+ font-size: 13px;
+ background:#000;
+ color:#fff;
+}
+#page { 
+ margin: 0 auto;
+ width: 1000px;
+ background: url('bg.jpg') no-repeat;
+ height:700px;
+ position:relative;
+}
+
+#content { 
+ background:url('contentBG.png');
+ min-height: 200px;
+ width: 505px;
+ padding:30px;
+ position: absolute;
+ right:120px;
+ top: 40px;
+}
+
+#contentH { 
+ background:url('contentH.png');
+ width: 661px;
+ height: 70px;
+ margin: 0 auto;
+ position: absolute;
+ left:-50px;
+ top: -30px;
+}
+
+#contentFClear { 
+ height: 21px;
+ margin: 0 auto;
+}
+#contentF { 
+ background:url('contentF.png');
+ width: 567px;
+ height: 41px;
+ margin: 0 auto;
+ position: absolute;
+ left:-1px;
+ bottom: -21px;
+}
+
+#menu { 
+ width: 167px;
+ position: absolute;
+ left:70px;
+ top: 160px;
+}
+
+
+#menuBG { 
+ background:url('menuBG.png') repeat-y;
+ width: 132px;
+ padding-left:10px;
+ padding-right:9px;
+ padding-top:10px;
+ min-height: 100px;
+ position: relative;
+}
+
+#menuBG a{ 
+ background:url('menuA.png');
+ width: 132px;
+ height: 23px;
+ padding-top:3px;
+ display:block;
+ margin: 4px auto;
+ text-align:center;
+ text-decoration: none;
+}
+
+
+#menuH { 
+ background:url('menuH.png');
+ width: 167px;
+ height: 67px;
+ margin: 0 auto;
+ position: absolute;
+ left:-10px;
+ top: -62px;
+}
+
+#menuFClear { 
+ height: 25px;
+ margin: 0 auto;
+}
+#menuF { 
+ background:url('menuF.png');
+ width: 167px;
+ height: 18px;
+ margin: 0 auto;
+ position: absolute;
+ left:-10px;
+ bottom: -12px;
+}
+
+#logo { 
+ background:url('logo.png');
+ height: 99px;
+ width: 205px;
+ position: absolute;
+ left:40px;
+ top: 60px;
+ z-index:1000;
+}
+
+.clear {
+ clear:both;
+}
+
+input {
+ width:100px;
+}
+
+.error {
+ color:red;
+ text-align:center;
+}
+
+
+
+#avatar {
+ background:url('avatar.png');
+ width:128px;
+ height:121px;
+ float:left;
+ margin-left:5px;
+ margin-right:10px;
+}
+
+.statusBar {
+ background:url('statusBar.png');
+ width:24px;
+ height:121px;
+ position:relative;
+}
+
+.energyBar {
+ background:url('energiaBar.png');
+ width:20px;
+ height:118px;
+ top:1px;
+ left:2px;
+ position:absolute;
+ cursor:pointer;
+}
+.zycieBar {
+ background:url('zycieBar.png');
+ width:20px;
+ height:118px;
+ top:1px;
+ left:2px;
+ position:absolute;
+ cursor:pointer;
+}
+
+#gracz_avatar {
+ display:block;
+}
+
+.right {
+ float: right;
+}
+
+.left {
+ float:left;
+}
+
+.stat {
+ background:url('stat.png');
+ width:84px;
+ height:18px;
+ padding:8px;
+ text-align:center;
+ position: relative;
+}
+#atak {
+ background:url('atak.png');
+ width:18px;
+}
+#pancerz {
+ background:url('pancerz.png');
+ width:18px;
+}
+#pum {
+ background:url('pum.png');
+ width:18px;
+}
+#exp {
+ background:url('exp.png');
+ width:18px;
+}
+#zycie {
+ background:url('zycie.png');
+ width:18px;
+}
+#punkty {
+ background:url('punkty.png');
+ width:18px;
+}
+#zloto {
+ background:url('coin.png');
+ width:18px;
+}
+#energia {
+ background:url('energia.png');
+ width:18px;
+}
+
+
+#gracz_postac {
+ background:url('hero.png');
+ display:block;
+ width:300px;
+ height:300px;
+ position: relative;
+}
+
+
+.dodaj {
+ background:url('dodaj.png');
+ position: absolute;
+ right:0px;
+ bottom:0px;
+ display:block;
+ width:11px;
+ height:11px;
+}
+
+
+a {
+ color: #fff;
+}
+
+
+#itemsAll, #itemsBackpack {
+ width: 213px;
+}
+
+#itemsAll {
+ float: left;
+}
+
+.item {
+ float: left;
+ width:64px; 
+ margin:3px;
+}
+
+#itemsBackpack {
+ float:right;
+}
+
+#helm {
+ position:absolute;
+ top: 2px;
+ left:115px;
+}
+
+#zbroja {
+ position:absolute;
+ top: 78px;
+ left:115px;
+}
+
+#bron {
+ position:absolute;
+ top: 45px;
+ left:8px;
+}
+
+#tarcza {
+ position:absolute;
+ top: 44px;
+ right:38px;
+}
+
+#pierscien {
+ position:absolute;
+ bottom: 99px;
+ left:21px;
+}
+
+#amulet {
+ position:absolute;
+ bottom: 98px;
+ right:55px;
+}
+
+#buty {
+ position:absolute;
+ bottom: 26px;
+ left:115px;
+}
+
+hr {
+ display:block;
+ height:0px;
+ margin:1px;
+ border:none;
+
+}
+
+#error { border-bottom:1px solid #EBE8D7; border-top:1px solid #EBE8D7; display:block; line-height:normal; margin:10px 0; min-height:35px; padding:7px 10px 7px 40px; 
+color:#fff; font-weight:bold;}
+#error { background:#FF9D9D; border-bottom:1px solid #FF3300; border-top:1px solid #FF3300; min-height:20px; color:#000; }
